@@ -1,0 +1,49 @@
+{
+  "name": "to-template",
+  "description": "Convert a vinyl file object to a Template-compatible template object.",
+  "version": "0.1.2",
+  "homepage": "https://github.com/jonschlinkert/to-template",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/to-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/to-template/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/to-template/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js",
+    "props.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-plain-object": "^1.0.0",
+    "to-vinyl": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "to-vinyl": "^0.1.1"
+  },
+  "keywords": [
+    "assemble",
+    "file",
+    "template",
+    "templateutil",
+    "verb",
+    "vinyl"
+  ]
+}
